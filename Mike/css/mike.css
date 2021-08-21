@@ -1,0 +1,422 @@
+/* 导肮样式开始 */
+.nav{
+    width: 100%;
+    height: 66px;
+    background-color: #88c5e1;
+    border-bottom: 5px solid #54abd4;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    z-index:999;
+}
+.wrap{
+    width: 87%;
+    margin: 0 auto;
+    position: relative;
+}
+.logo,.search,.nav-bar{
+    height: 66px;
+    float: left;
+}
+.search{
+    position: relative; 
+}
+.logo>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+.ip{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+    padding-left: 10px;
+    margin-top: 13px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    outline: none;
+    transition:backroundColor .2s;
+    transition:borderColor .2s;
+}
+.ip:hover{
+    background-color: #fff;
+    border-color: #54abd4;
+}
+.search button{
+    width: 40px;
+    height: 34px;
+    background-color: #f5f5f5;
+    outline: none;
+    color: #54abd4;
+    font-weight: 900;
+    position: absolute;
+    top: 16px;
+    right: 2px;
+}
+.nav-bar>ul{
+    float: right;
+}
+.nav-bar li{
+    float: left;
+}
+.nav-bar a{
+    display: block;
+    color: #fff;
+    padding: 10px;
+    margin-left: 8px;
+    margin-top: 11.5px;
+}
+.nav-bar a:hover{
+    border-bottom: 2px solid #fff;
+}
+.active{
+    border-bottom: 2px solid #fff;
+}
+/* 导肮样式结束 */
+
+/* 登录样式开始 */
+.login{
+    width: 100%;
+    background: url("../images/homeImg.png") no-repeat;
+    background-size: 100% 100%;
+    margin-top: 71px;
+    box-sizing: border-box;
+}
+.form,.mike-logo{
+    float: left;
+}
+.form li>a{
+    color: #fff;
+    float: left;
+    display: block;
+    margin-left: 15px;
+    padding: 10px 0 3px;
+}
+.form li>a:hover{
+    border-bottom: 2px solid #fff;
+}
+.rem{
+    margin: 15px 0;
+    font-size: 12px;
+    color: #fff;
+    text-align: left;
+}
+.rem a{
+    color: #fff;
+    float: right;
+}
+.rem a:hover{
+    text-decoration: underline;
+}
+.rem input{
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+.form button{
+    width: 100%;
+    height: 44px;
+    background-color: #88c5e1;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: 0 8px #54abd4;
+    border-radius: 6px;
+    letter-spacing: 2px;
+    transition: transform .2s;
+}
+.form button:hover{
+    transform: translateY(3px);
+    box-shadow: 0 5px #54abd4;
+}
+/* 登录样式结束 */
+
+/* 主体样式开始 */
+
+/* 新课速递样式开始 */
+.content{
+    padding-top: 40px;
+}
+.new-course,.hot-course,.hot-tag{
+    background-color: #fff;
+    box-shadow: 0 14px 10px -10px rgba(0 0 0 /10%);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.container{
+    width: 93%;
+    margin: 0 auto;
+}
+.title{
+    text-align: left;
+    font-weight: normal;
+    padding: 8px 16px;
+    margin: 40px 0 36px;
+    border-left: 3px solid #54abd4;
+}
+.new-course-box{
+    overflow: hidden;
+}
+.new-course-box div{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.new-course-box img{
+    width: 100%;
+}
+.new-course-box p{
+    height: 80px;
+    line-height: 80px;
+    color: #999;
+}
+.btn{
+    width: 63px;
+    height: 13px;
+    margin: 30px auto;
+}
+.btn li{
+    width: 11px;
+    height: 11px;
+    border: 1px solid #f8ce38;
+    border-radius: 50%;
+    float: left;
+    margin: 0 4px;
+    cursor: pointer;
+}
+.btn-active{
+    background-color: #f8ce38;
+}
+/* 新课速递样式结束 */
+
+/* 最热门课程样式开始 */
+.more{
+    color: #7d7d7d;
+    font-size: 12px;
+}
+.more:hover{
+    color: #54abd4;
+    text-decoration: underline;
+}
+.hot-course-box>div{
+    padding: 7px;
+    float: left;
+    box-sizing: border-box;
+}
+.hot-course-box>div>div{
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+    padding: 52px 16px;
+    box-sizing: border-box;
+}
+.course-img{
+    width: 46px;
+}
+.name{
+    display: block;
+    width: 100%;
+    height: 24px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.a{
+    display: inline-block;
+    padding: 3px 5px;
+    margin: 0 4px 4px 0;
+    color: #fff;
+    font-size: 12px;
+    background-color: #88c5e1;
+    border-radius: 4px;
+}
+.a:hover{
+    background-color: #54abd4;
+}
+.score{
+    margin: 10px 0 5px;
+    color: #f8ce38;
+    font-size: 12px;
+}
+.score>img{
+    width: 12px;
+    position: relative;
+    top: 2px;
+}
+.comment{
+    color: #7d7d7d;
+    font-size: 12px;
+}
+/* 最热门课程样式结束 */
+
+/* 热门标签样式开始 */
+
+.hot-tag-box{
+    padding-bottom: 18px;
+    text-align: left;
+}
+.hot-tag-box>h5{
+    color: #666;
+    font-weight: 400;
+    margin: 8px 0 16px;
+}
+/* 热门标签样式结束 */
+
+/* 主体样式结束 */
+
+
+
+
+
+
+
+
+/* 移动端开始 */
+@media screen and (max-width:768px) {
+    .logo{
+        width: 16%;
+    }
+    .search{
+        width: 68%;   
+    }
+    .nav-bar{
+        display: none;
+    }
+    .logo>a{
+        background: url("../images/Brand-S.png") no-repeat left;
+        background-size: 35px;
+    }
+    .nav-btn{
+        width: 36px;
+        height: 36px;
+        border: 1px solid #fff;
+        float: right;
+        color: #fff;
+        margin-top: 14px;
+        line-height: 36px;
+    }
+    .nav-btn>i{
+        font-size: 20px;
+    }
+        /* 登录 */
+        .login{
+            height: 365px;
+            padding-top: 85px;
+        }
+        .form{
+            width: 100%;
+        }
+        .mike-logo{
+            display: none;
+        }
+        /* 新课速递 */
+        .new-course-box div,.hot-course-box>div{
+            width: 100%;
+        }
+}
+/* 移动端结束 */
+
+/* ipad端开始 */
+@media screen and (min-width:768px) and (max-width:992px) {
+        .logo{
+            width: 18%;
+        }
+        .search{
+            width: 42%;   
+        }
+        .nav-bar{
+            width: 40%;
+        }
+    .logo>a{
+        background: url("../images/Brand-M.png") no-repeat left;
+        background-size: 85px;
+    }
+    .nav-btn{
+        display: none;
+    }
+    /* 登录 */
+    .login{
+        height: 338px;
+        padding-top: 15px;
+    }
+    .form{
+        width: 43%;
+    }
+    .mike-logo{
+        width: 57%;
+    }
+    /* 新课速递 */
+   
+    /* 最热门课程 */
+    .hot-course-box>div{
+        width: 50%;
+    }
+    /* 热门标签 */
+    .hot-tag{
+        width: 100%;
+    }
+}
+
+/* ipad端结束 */
+
+/* pc端开始 */
+@media screen and (min-width:992px) {
+    .logo{
+        width: 25%;
+    }
+    .search{
+        width: 40%;   
+    }
+    .nav-bar{
+        width: 35%;
+    }
+    .logo>a{
+    background: url("../images/Brand.png") no-repeat left;
+    background-size: 175px;
+    }
+    .nav-btn{
+        display: none;
+    }
+    /* 登录 */
+    .login{
+        height: 460px;
+        padding-top: 75px;
+    }
+    .form{
+        width: 30%;
+    }
+    .mike-logo{
+        width: 70%;
+    }
+    /* 新课速递 */
+    .new-course,.hot-course{
+        width: 64%;
+    }
+    
+    /* 最热门课程 */
+    .hot-course-box>div{
+        width: 33%;
+    }
+
+    /* 热门标签 */
+    .hot-tag{
+        width: 31%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+/* pc端结束 */
+
+
+
+
+
+
+

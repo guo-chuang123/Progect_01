@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>米课</title>
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./css/mike.css">
+</head>
+<body>
+<!-- 导航开始 -->
+    <div class="nav">
+        <div class="wrap">
+            <div class="logo">
+                <a href="#"></a>
+            </div>
+            <div class="search">
+                <form action="">
+                    <input type="text" class="ip" placeholder="查找课程...">
+                    <button type="submit" class="iconfont">&#xe64d;</button>
+                </form>
+            </div>
+            <div class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="#" class="active">首页</a> 
+                    </li>
+                    <li>
+                        <a href="#">课程</a> 
+                    </li>
+                    <li>
+                        <a href="#">登录</a> 
+                    </li>
+                    <li>
+                        <a href="#">公告</a> 
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-btn">
+                <i class="iconfont">&#xe66c;</i>
+            </div>
+        </div>
+    </div>
+<!-- 导航结束 -->
+
+<!-- 登录开始 -->
+    <div class="login">
+        <div class="wrap">
+            <div class="mike-logo">
+                <img src="./images/MiLogo.png" alt=""><br>
+                <img src="./images/miTitle.png" alt="">
+            </div>
+            <div class="form">
+                <form action="">
+                    <ul>
+                        <li><a href="#" class="active">登录米课</a></li>
+                        <li><a href="#">注册'加入米课</a></li>
+                    </ul>
+                    <input type="email" placeholder="邮箱" class="ip">
+                    <input type="password" placeholder="密码" class="ip">
+                    <div class="rem">
+                        <input type="checkbox" checked ><span>记住我</span>
+                        <a href="#">忘记密码</a>
+                    </div>
+                    <button>登录</button>
+                </form>
+            </div>
+        </div>
+    </div>
+<!-- 登录结束 -->
+
+<!-- 主体开始 -->
+<div class="content">
+    <div class="wrap">
+        <!-- 新课速递开始 -->
+        <div class="new-course">
+            <div class="container">
+                <h3 class="title">新课速递</h3>
+                <div class="new-course-box">
+                    <div>
+                        <a href="#">
+                            <img src="./images/biology.jpg" alt="">
+                        <p>感受文学与电影交融之魅力</p></a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="./images/biology.jpg" alt="">
+                        <p>感受文学与电影交融之魅力</p></a>
+                    </div>
+                </div>
+                <div class="new-course-box" style="display: none;">
+                    <div>
+                        <a href="#">
+                            <img src="./images/mineral.jpg" alt="">
+                        <p>感受文学与电影交融之魅力</p></a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="./images/mineral.jpg" alt="">
+                        <p>感受文学与电影交融之魅力</p></a>
+                    </div>
+                </div>
+                <div class="new-course-box" style="display: none;">
+                    <div>
+                        <a href="#">
+                            <img src="./images/film.jpg" alt="">
+                        <p>感受文学与电影交融之魅力</p></a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="./images/film.jpg" alt="">
+                        <p>感受文学与电影交融之魅力</p></a>
+                    </div>
+                </div>
+                <ul class="btn">
+                    <li onclick="f(0)" class="btn-active"><a href="#"></a></li>
+                    <li onclick="f(1)"><a href="#"></a></li>
+                    <li onclick="f(2)"><a href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 新课速递结束 -->
+
+        <!-- 最热门课程开始 -->
+        <div class="hot-course">
+            <div class="container">
+                <h3 class="title">最热门课程 
+                    <a href="#" class="more">更多>></a>
+                </h3>
+                <div class="hot-course-box">
+                    <div>
+                        <div>
+                            <img src="./images/art.png" class="course-img" alt="">
+                            <a href="#" class="name">俄罗斯文学经典的当代意义</a>
+                            <div>
+                                <a href="#" class="a">文学院</a>
+                                <a href="#" class="a">董晓</a>
+                            </div>
+                            <div class="score">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                            </div>
+                            <div class="comment"><span>3学分</span>
+                                <a href="#">68评论</a></div>
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="./images/art.png" class="course-img" alt="">
+                            <a href="#" class="name">俄罗斯文学经典的当代意义</a>
+                            <div>
+                                <a href="#" class="a">文学院</a>
+                                <a href="#" class="a">董晓</a>
+                            </div>
+                            <div class="score">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                            </div>
+                            <div class="comment"><span>3学分</span>
+                                <a href="#">68评论</a></div>
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="./images/art.png" class="course-img" alt="">
+                            <a href="#" class="name">俄罗斯文学经典的当代意义</a>
+                            <div>
+                                <a href="#" class="a">文学院</a>
+                                <a href="#" class="a">董晓</a>
+                            </div>
+                            <div class="score">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                            </div>
+                            <div class="comment"><span>3学分</span>
+                                <a href="#">68评论</a></div>
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="./images/art.png" class="course-img" alt="">
+                            <a href="#" class="name">俄罗斯文学经典的当代意义</a>
+                            <div>
+                                <a href="#" class="a">文学院</a>
+                                <a href="#" class="a">董晓</a>
+                                <a href="#" class="a">文学院</a>
+                                <a href="#" class="a">董晓</a>
+                            </div>
+                            <div class="score">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                            </div>
+                            <div class="comment"><span>3学分</span>
+                                <a href="#">68评论</a></div>
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="./images/art.png" class="course-img" alt="">
+                            <a href="#" class="name">俄罗斯文学经典的当代意义</a>
+                            <div>
+                                <a href="#" class="a">文学院</a>
+                                <a href="#" class="a">董晓</a>
+                            </div>
+                            <div class="score">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                            </div>
+                            <div class="comment"><span>3学分</span>
+                                <a href="#">68评论</a></div>
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="./images/art.png" class="course-img" alt="">
+                            <a href="#" class="name">俄罗斯文学经典的当代意义</a>
+                            <div>
+                                <a href="#" class="a">文学院</a>
+                                <a href="#" class="a">董晓</a>
+                            </div>
+                            <div class="score">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                                <img src="./images/star.png" alt="">
+                            </div>
+                            <div class="comment"><span>3学分</span>
+                                <a href="#">68评论</a></div>
+                            
+                        </div>
+                    </div>
+                 
+                </div>
+              
+            </div>
+        </div>
+        <!-- 最热门课程结束 -->
+
+        <!-- 热门标签开始 -->
+        <div class="hot-tag">
+            <div class="container">
+                <h3 class="title">热门标签</h3>
+                <div class="hot-tag-box">
+                    <h5>学分</h5>
+                    <a href="#" class="a">1学分</a>
+                    <a href="#" class="a">2学分</a>
+                    <a href="#" class="a">3学分</a>
+                </div>
+                <div class="hot-tag-box">
+                    <h5>学分</h5>
+                    <a href="#" class="a">研讨课</a>
+                    <a href="#" class="a">通识课</a>
+                    <a href="#" class="a">公选课</a>
+                    <a href="#" class="a">阅读计划</a>
+                    <a href="#" class="a">文化素质课</a>
+                    <a href="#" class="a">优秀文化素质课</a>
+                    <a href="#" class="a">就业创业课</a>
+                </div>
+                <div class="hot-tag-box">
+                    <h5>学分</h5>
+                    <a href="#" class="a">研讨课</a>
+                    <a href="#" class="a">通识课</a>
+                    <a href="#" class="a">公选课</a>
+                    <a href="#" class="a">阅读计划</a>
+                    <a href="#" class="a">文化素质课</a>
+                    <a href="#" class="a">优秀文化素质课</a>
+                    <a href="#" class="a">就业创业课</a>
+                </div>
+                <div class="hot-tag-box">
+                    <h5>学分</h5>
+                    <a href="#" class="a">研讨课</a>
+                    <a href="#" class="a">通识课</a>
+                    <a href="#" class="a">公选课</a>
+                    <a href="#" class="a">阅读计划</a>
+                    <a href="#" class="a">文化素质课</a>
+                    <a href="#" class="a">优秀文化素质课</a>
+                    <a href="#" class="a">就业创业课</a>
+                </div>
+            </div>
+        </div>
+        <!-- 热门标签开始 -->
+    </div>
+</div>
+<!-- 主体结束 -->
+
+
+
+<script src="./js/mike.js"></script>
+</body>
+</html>
